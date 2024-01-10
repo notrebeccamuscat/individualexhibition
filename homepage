@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Theory of Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header>
+      <!-- Creates the header section with the menu tabs 
+        Header bar is split into two - logo and header right which contains another flexbox-->
+      <div class="header-logo">
+        <h2>Design Theory</h2>
+      </div>
+      <div class="header-right">
+        <!-- Flexbox used to sort menu items -->
+        <div class="header-menu">
+          <a href="#" class="active">🏠 Home</a>
+          <a href="#what">💡 Intro</a>
+          <a href="#principles">🖐️ Principles</a>
+          <a href="#credits">🚀 Credits</a>
+        </div>
+        <div class="header-switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero">
+      <!-- Creates hero landing page which provides CTA for rest of website -->
+      <div class="hero-text">
+        <h1>Welcome to the<br />theory of design</h1>
+      </div>
+      <div class="hero-btn">
+        <a href="#what">Read More 👇</a>
+      </div>
+    </div>
+
+    <div class="parallax">
+      <!-- Inserts parallax viewbox -->
+    </div>
+
+    <div class="what" id="what">
+      <!-- First section of info -->
+      <h2>What is design theory?</h2>
+      <p>
+        Design theory is a system for helping graphic designers better
+        understand how to communicate messages to audiences through visuals. It
+        involves identifying elements in an image and explaining why they are
+        important. Design theory can help designers make aesthetic decisions and
+        ensure that their work communicates the intended message to viewers.<br /><br />Graphic
+        designers often employ design theory when creating images for marketing
+        purposes, such as advertisements or brand logos.
+      </p>
+    </div>
+
+    <div class="why">
+      <!-- Second section of info -->
+      <h2>Why is design theory important?</h2>
+      <p>
+        Design theory is integral to graphic design as it helps designers craft
+        thoughtful and clear messages to viewers. For instance, if one wanted to
+        highlight the importance of education, they could create a visual
+        featuring children sitting at desks and interacting positively with
+        their teacher. Incorporating design theory into advertisements and
+        logos, for example, can help them grab viewers' attention and establish
+        an emotional connection.
+      </p>
+    </div>
+
+    <div class="principles" id="principles">
+      <!-- Displays the principles using flexbox, first a general intro then the cards with each principle -->
+      <div class="principles-text">
+        <h2>The Principles of Design Theory</h2>
+        <p>
+          There are five principles of design theory that individuals may use
+          when beginning a new project. While each principle offers individual
+          support to a project, it's important to have all five principles so
+          that they can combine to communicate a clear and meaningful message to
+          viewers.
+        </p>
+      </div>
+
+      <div class="principles-cards">
+        <div class="card">
+          <h3>👉 Alignment 👈</h3>
+          <p>
+            Graphic designers use alignment to ensure that their visuals match
+            the message they want to communicate with viewers.
+          </p>
+        </div>
+        <div class="card">
+          <h3>👉 Repetition 👈</h3>
+          <p>
+            Repetition involves introducing elements of design that repeat
+            throughout an image.
+          </p>
+        </div>
+        <div class="card">
+          <h3>👉 Contrast 👈</h3>
+          <p>
+            Contrast takes place when a graphic designer uses two opposing
+            design styles or materials and combines them in one image.
+          </p>
+        </div>
+        <div class="card">
+          <h3>👉 Hierarchy 👈</h3>
+          <p>
+            Hierarchy involves placing items in an image close together to imply
+            that the items relate to each other.
+          </p>
+        </div>
+        <div class="card">
+          <h3>👉 Balance 👈</h3>
+          <p>
+            Graphic designers use balance to create tension or peace in an
+            image, which affects how a viewer reacts to it.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="credits" id="credits">
+      <!-- Displays the credits for the website -->
+      Created by Rebecca Muscat, 2022.
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Connects to JS for event handlers -->
+  </body>
+</html>

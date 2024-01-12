@@ -339,7 +339,7 @@ p{
 
 .parallax{
     /* creates parallex effect */
-    background: url(./parallax.jpg);
+    background: url(./works.jpeg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
